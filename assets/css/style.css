@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0
+}
+main {
+    background: url(https://source.unsplash.com/random) center/cover no-repeat;
+    height: 100vh;
+}
+header {
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+    padding-left: 1em;
+    padding-bottom: 2em
+}
+nav {
+    display: flex;
+    align-items: center
+}
+ul {
+    display: flex;
+    background: black;
+    justify-content: flex-end;
+    list-style: none;
+}
+h1, li {
+    color: white;
+}
+li {
+    padding-right: 2em;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
